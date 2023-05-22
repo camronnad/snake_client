@@ -22,6 +22,4 @@ conn.write("Move: up")
   return conn;
 };
 
-console.log("Connecting ...");
-
 module.exports = { connect }
